@@ -1,7 +1,30 @@
 aid: clinflash
-name: clinflash
-description: clinflash is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clinflash.png
+name: Clinflash
+description: >-
+  Clinflash (易迪希医药科技 / Clinflash Healthcare Technology) is a Chinese clinical-research
+  technology company founded in 2014 that provides a cloud-based clinical trial information
+  platform for pharmaceutical sponsors, CROs, and research sites. Its self-developed suite
+  spans more than ten systems, including Clinflash EDC (electronic data capture), IRT/IWRS
+  (randomization and trial supply management), eCOA/ePRO (electronic clinical outcome and
+  patient-reported outcomes), Safety/PV (pharmacovigilance and drug-safety alerting), CTMS
+  (clinical trial management), eTMF (electronic trial master file), eCTD, eConsent, eSign,
+  Coder (medical coding), and ePAY (subject payment). Clinflash has supported thousands of
+  clinical trial projects for over a thousand pharmaceutical, generic, medical-device, and
+  IVD organizations, including pivotal Phase III and international multi-center studies. The
+  platform is delivered as a login-gated SaaS at cloud.clinflash.com and, as of this profile,
+  publishes no public developer/API program, OpenAPI, SDKs, or GitHub organization.
 url: https://raw.githubusercontent.com/api-evangelist/clinflash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Clinical Trials
+- Clinical Research
+- Healthcare
+- Life Sciences
+- EDC
+- Pharmacovigilance
+- SaaS
+- Pharmaceutical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://clinflash.net
+  url: https://www.clinflash.com
+- type: Login
+  url: https://cloud.clinflash.com/
+- type: Support
+  url: https://www.clinflash.com/contact.html
+- type: Blog
+  url: https://www.clinflash.com/news.html
+- type: DomainSecurity
+  url: security/clinflash-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
